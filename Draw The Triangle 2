@@ -1,0 +1,2 @@
+SET @number = 0;
+SELECT repeat('* ', @number := @number + 1) from information_schema.tables limit 20
