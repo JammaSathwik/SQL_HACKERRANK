@@ -1,0 +1,2 @@
+SET @number = 21;
+SELECT repeat('* ', @number := @number - 1) from information_schema.tables;
